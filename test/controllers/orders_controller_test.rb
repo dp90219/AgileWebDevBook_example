@@ -22,7 +22,7 @@ class OrdersControllerTest < ActionController::TestCase
     item.build_cart
     item.product = products(:ruby)
     item.save!
-    sesssion[:cart_id] = item.cart_id
+    session[:cart_id] = item.cart_id
     get :new
     assert_response :success
   end
