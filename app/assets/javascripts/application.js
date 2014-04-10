@@ -15,3 +15,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+// $('.button_to').on('click', function(){
+//   $(this).hide();
+// });
